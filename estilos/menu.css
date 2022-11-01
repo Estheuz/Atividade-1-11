@@ -1,0 +1,53 @@
+/*Posicionamento*/
+
+#logo{
+    width: 75px;
+    height: 75px; 
+    padding: 6px;
+    margin: 4px;
+    background-color: #be987000;
+    background: linear-gradient(20.15deg, #7a5732 5.62%, #e5b98a8c 90.61%);
+    position: relative;
+
+}
+#logo:hover{
+    box-shadow: 2px 2px 2px rgba(58, 25, 2, 0.603);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #614629 ;
+}
+
+#littera{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 260px;
+    color: #b0723f;
+    font-size: 3rem;
+    text-shadow: 1px 1px #614629;
+}
+
+/*Cores*/
+
+header{
+    background-color: #f1cfa2;
+    background: linear-gradient(15.15deg, #7a5732 2.62%, #e5b98a 25.61%);
+
+}
+
+a{
+    color: #ac703a;
+}
+a:hover{
+    color: #8a6033;
+}
+
+header > nav > ul > li{
+    border: 2px solid rgba(58, 25, 2, 0.603);
+    background-color: #e5b98a;
+    padding: 8px;
+}
+

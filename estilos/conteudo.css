@@ -1,0 +1,67 @@
+*{margin: 0;
+padding: 0;}
+
+
+.lista{
+    display: flex;
+    margin-right: 32px;
+}
+
+header > nav > ul > li {
+    margin: 12px;
+    list-style: none;
+}
+
+.conteudo1{
+    text-align: center;
+    padding: 50px;
+}
+
+.conteudo2{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 16px;
+    text-align: center;
+}
+.imagensPoetas{
+    width: 80px;
+    height: 100px;
+}
+
+.conteudo2{
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/*CORES*/
+body{
+    background-color: #e5b98a;
+}
+section.conteudo1 > h1{
+    background-color: #bf844c;
+}
+
+section.conteudo1 > p{
+    height: 140px;
+    background-color: #c88b5650;
+    border: 2px solid #bf844c ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+ button{
+    width: 120px;
+    height: 42px;
+    gap: 20px;
+}
+
+/*BORDA DA IMAGENS DOS POETAS*/
+
+section.conteudo2 > div > a >img{
+    border:  3px solid #bf844c;
+}

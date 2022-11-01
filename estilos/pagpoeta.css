@@ -1,0 +1,81 @@
+
+
+/*Posição do primeiro artigo*/
+img {
+    display: flex;
+    position: relative;
+    position: fixed;
+    width: 140px;
+    height: 200px;
+}
+
+article.artigoBiografia {
+    position: absolute;
+    margin-top: 200px;
+    width: 160px;
+}
+
+header.biografia {
+    position: fixed;
+}
+ /*Posição do segunto artigo*/
+header.cabecalho {
+    text-align: center;
+}
+
+.areaPoema {
+    width: 520px;
+    height: 60px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.areaPoema > label{
+    padding: 3px;
+}
+button {
+    width: 75px;
+    height: 25px;
+    margin: 2px;
+}
+article.soneto1{
+    margin: 0 auto;
+}
+article>div.estrofe {
+    margin-bottom: 40px;
+}
+
+article>div.estrofe>p {
+    margin-bottom: -16px;
+}
+
+article.soneto {
+    text-align: center;
+}
+
+/*Cores*/
+
+body{
+    background-color: #e5b98a;
+}
+
+img{
+    border: 5px solid #bf844c;
+}
+article.artigoBiografia > p{
+    border: 2px solid #5c422a;
+    padding: 6px;
+    background-color: #bf844c;
+}
+
+button{
+    background-color: #e5b98a;
+    border: 1px solid black;
+}
+
+button:hover{
+    border: 2px solid black;
+}
